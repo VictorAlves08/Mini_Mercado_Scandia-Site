@@ -1,7 +1,10 @@
+import GlobalStyles from '../../styles/GlobalStyles';
+
 export default function Header() {
-    return (
-        <>
-            <h1>Hello header!</h1>
-        </>
-    );
+  return (
+    <>
+      <GlobalStyles />
+      <h1>Hello header!</h1>
+    </>
+  );
 };
