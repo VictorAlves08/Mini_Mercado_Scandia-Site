@@ -1,9 +1,12 @@
+import GlobalStyles from '@/styles/GlobalStyles';
+import NextHead from '@/components/NextHead';
 import Header from '../components/Header/index';
 
 export default function Home() {
   return (
     <>
-      <h1>Hello World!</h1>
+      <GlobalStyles />
+      <NextHead />
       <Header />
     </>
   )
