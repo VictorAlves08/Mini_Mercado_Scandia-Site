@@ -6,7 +6,7 @@ import { Container } from "./styles";
 import { BsInstagram, BsWhatsapp } from 'react-icons/bs';
 import { FiMapPin } from 'react-icons/fi';
 
-import Logo from '../../assets/logos/logo_sembg.png';
+import Logo from '../../assets/logos/logo-sembg.webp';
 
 import credit_cards from '../../mocks/credit_cards';
 
@@ -25,15 +25,15 @@ export default function Header() {
       <Image src={Logo} alt='Logo do Mini-Mercado Scandia' width={215} height={215} />
 
       <div className="icons-details">
-        <Link rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/minimercadoscandia/">
+        <Link rel="noopener noreferrer" style={{ color: '#fff' }} target="_blank" href="https://www.instagram.com/minimercadoscandia/">
           <BsInstagram title='Siga-nos no Instagram! @minimercadoscandia' size='24' />
         </Link>
 
-        <Link rel="noopener noreferrer" target="_blank" href="https://api.whatsapp.com/send?l=pt_BR&phone=5511980533265%20&text=Olá! Vim do Site e gostaria de mais informações sobre o Mini Mercado Scandia.">
+        <Link rel="noopener noreferrer" style={{ color: '#fff' }} target="_blank" href="https://api.whatsapp.com/send?l=pt_BR&phone=5511980533265%20&text=Olá! Vim do Site e gostaria de mais informações sobre o Mini Mercado Scandia.">
           <BsWhatsapp title='Faça seu pedido pelo WhatsApp!' size='24' />
         </Link>
 
-        <Link rel="noopener noreferrer" target="_blank" href="https://goo.gl/maps/t3iQnkNbYP5vHQSE6">
+        <Link rel="noopener noreferrer" style={{ color: '#fff' }} target="_blank" href="https://goo.gl/maps/t3iQnkNbYP5vHQSE6">
           <FiMapPin title='Visite nossa loja!' size='24' />
         </Link>
       </div>
