@@ -3,7 +3,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    background-color: green;
+    background-color: purple;
     width: 100%;
 `;
 

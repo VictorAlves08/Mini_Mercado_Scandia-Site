@@ -9,4 +9,10 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
   }
+
+  body{
+    padding: 8px;
+    width: 100%;
+    height: 100%;
+  }
 `;

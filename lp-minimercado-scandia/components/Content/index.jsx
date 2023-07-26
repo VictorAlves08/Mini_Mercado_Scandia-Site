@@ -1,9 +1,9 @@
 import * as Styled from './styles';
 
-export const Header = () => {
+export const Content = () => {
     return (
         <Styled.Container>
-            <h1>header</h1> 
+            <h1>Content</h1>
         </Styled.Container>
     )
 };

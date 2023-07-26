@@ -1,9 +1,11 @@
-import { Header } from "@/components";
+import { Header, Content, Footer } from "@/components";
 
 const Home = () => {
     return (
         <>
             <Header />
+            <Content />
+            <Footer />
         </>
     )
 };
