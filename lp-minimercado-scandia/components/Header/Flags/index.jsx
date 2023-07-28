@@ -41,19 +41,19 @@ export const Flags = () => {
                 src={card_logo}
                 alt='Logo bandeira de cartão de crédito Card'
                 width={50}
-                height={30}
+                height={20}
             />
             <Image
                 src={elo_logo}
                 alt='Logo bandeira de cartão de crédito Elo'
                 width={50}
-                height={30}
+                height={25}
             />
             <Image
                 src={hipercard_logo}
                 alt='Logo bandeira de cartão de crédito Hipercard'
                 width={50}
-                height={30}
+                height={25}
             />
             <Image
                 src={mastercard_logo}
@@ -65,7 +65,7 @@ export const Flags = () => {
                 src={pix_logo}
                 alt='Logo Pix'
                 width={50}
-                height={50}
+                height={40}
             />
             <Image
                 src={safrapay_logo}
@@ -83,25 +83,25 @@ export const Flags = () => {
                 src={ticket_logo}
                 alt='Logo bandeira de cartão de crédito Ticket'
                 width={50}
-                height={50}
+                height={40}
             />
             <Image
                 src={verocard_logo}
                 alt='Logo bandeira de cartão de crédito Verocard'
                 width={50}
-                height={50}
+                height={45}
             />
             <Image
                 src={visa_logo}
                 alt='Logo bandeira de cartão de crédito Visa'
                 width={50}
-                height={25}
+                height={20}
             />
             <Image
                 src={vr_logo}
                 alt='Logo bandeira de cartão de crédito VR'
                 width={50}
-                height={25}
+                height={20}
             />
         </Styled.Container>
     )

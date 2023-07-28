@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 12em;
+  height: 15rem;
   background: rgb(9, 9, 64);
 
   padding: 8px;
@@ -21,18 +21,21 @@ export const Section = styled.section`
 
   color: #fff;
   font-weight: bold;
+  font-size: 1rem;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  gap: 1rem;
+
+  padding-top: 8px;
 
   .icons-container {
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
     .icon{
         &:hover{
@@ -45,6 +48,7 @@ export const Section = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
     gap: 0.5em;
   }
 `;
