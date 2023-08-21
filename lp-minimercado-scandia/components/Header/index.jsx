@@ -1,7 +1,10 @@
 import * as Styled from './styles';
 
 import { InstagramIcon, MapsIcon, WhatsAppIcon } from '@/icons';
+
 import Image from 'next/image';
+import Link from 'next/link'
+
 import { Flags } from './Flags';
 
 import logo_sbg_blue from '@/public/logo/logo_sbg_blue.webp';
@@ -18,27 +21,33 @@ export const Header = () => {
                 />
                 <Styled.Section>
                     <div className='icons-container'>
-                        <WhatsAppIcon
-                            className='icon'
-                            width='2em'
-                            height='2em'
-                            color="white"
-                            style={{ cursor: 'pointer' }}
-                        />
-                        <InstagramIcon
-                            className='icon'
-                            width='2em'
-                            height='2em'
-                            color="white"
-                            style={{ cursor: 'pointer' }}
-                        />
-                        <MapsIcon
-                            className='icon'
-                            width='2em'
-                            height='2em'
-                            color="white"
-                            style={{ cursor: 'pointer' }}
-                        />
+                        <Link target="_blank" href="https://api.whatsapp.com/send?l=pt_BR&phone=5511980533265%20&text=Olá, Minimercado Scandia! Vim do site e gostaria de mais informações." >
+                            <WhatsAppIcon
+                                className='icon'
+                                width='2em'
+                                height='2em'
+                                color="white"
+                                style={{ cursor: 'pointer' }}
+                            />
+                        </Link>
+                        <Link target="_blank" href="https://www.instagram.com/minimercadoscandia/" >
+                            <InstagramIcon
+                                className='icon'
+                                width='2em'
+                                height='2em'
+                                color="white"
+                                style={{ cursor: 'pointer' }}
+                            />
+                        </Link>
+                        <Link target="_blank" href="https://goo.gl/maps/JSBq2cs2ZNbc9cTP7" >
+                            <MapsIcon
+                                className='icon'
+                                width='2em'
+                                height='2em'
+                                color="white"
+                                style={{ cursor: 'pointer' }}
+                            />
+                        </Link>
                     </div>
                     <div className='info-container'>
                         <p>Seg a Sáb das 07:00 às 20:00</p>

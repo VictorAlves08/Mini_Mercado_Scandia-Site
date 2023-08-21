@@ -22,67 +22,67 @@ export const Flags = () => {
             <Image
                 src={alelo_logo}
                 alt='Logo bandeira de cartão de crédito Alelo'
-                width={50}
+                width={60}
                 height={50}
             />
             <Image
                 src={amex_logo}
                 alt='Logo bandeira de cartão de crédito American Express'
-                width={50}
+                width={60}
                 height={50}
             />
             <Image
                 src={caixa_tem_logo}
                 alt='Logo bandeira de cartão de crédito Caixa Tem'
-                width={50}
+                width={60}
                 height={50}
             />
             <Image
                 src={card_logo}
                 alt='Logo bandeira de cartão de crédito Card'
-                width={50}
+                width={60}
                 height={20}
             />
             <Image
                 src={elo_logo}
                 alt='Logo bandeira de cartão de crédito Elo'
-                width={50}
+                width={60}
                 height={25}
             />
             <Image
                 src={hipercard_logo}
                 alt='Logo bandeira de cartão de crédito Hipercard'
-                width={50}
+                width={60}
                 height={25}
             />
             <Image
                 src={mastercard_logo}
                 alt='Logo bandeira de cartão de crédito Mastercard'
-                width={50}
+                width={60}
                 height={30}
             />
             <Image
                 src={pix_logo}
                 alt='Logo Pix'
-                width={50}
+                width={60}
                 height={40}
             />
             <Image
                 src={safrapay_logo}
                 alt='Logo bandeira de cartão de crédito Safrapay'
-                width={50}
+                width={60}
                 height={50}
             />
             <Image
                 src={sodexo_logo}
                 alt='Logo bandeira de cartão de crédito Sodexo'
-                width={50}
+                width={60}
                 height={25}
             />
             <Image
                 src={ticket_logo}
                 alt='Logo bandeira de cartão de crédito Ticket'
-                width={50}
+                width={60}
                 height={40}
             />
             <Image
@@ -94,7 +94,7 @@ export const Flags = () => {
             <Image
                 src={visa_logo}
                 alt='Logo bandeira de cartão de crédito Visa'
-                width={50}
+                width={60}
                 height={20}
             />
             <Image
