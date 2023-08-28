@@ -9,7 +9,7 @@ export const About = () => {
             <h1>Bem-vindo(a) ao Minimercado Scandia!</h1>
             <section>
                 <p>
-                    Nossa paixão é oferecer a melhor qualidade de produtos e padarias para a comunidade do Jd. Scandia.
+                    Nossa missão é oferecer a melhor qualidade de produtos e padarias para a comunidade do Jd. Scandia.
                     <br />
                     Desde 2020, trilhamos um caminho de crescimento e inovação, sempre superando expectativas e proporcionando uma experiência única e agradável.
                     <br />
@@ -17,7 +17,7 @@ export const About = () => {
                     <br />
                     A satisfação dos clientes é nossa maior motivação. Venha conhecer um universo de sabores e aromas, tornamos suas compras momentos de prazer e praticidade.
                     <br />
-                    Junte-se a nós no Minimercado Scandia, onde cada cliente é tratado com carinho e dedicação.
+                    Junte-se a nós no Minimercado Scandia, onde cada cliente é tratado com muito carinho e dedicação.
                 </p>
             </section>
         </Styled.Container>
