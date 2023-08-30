@@ -1,8 +1,5 @@
 import * as Styled from './styles';
 
-import Image from 'next/image';
-import logo_sbg_blue from '@/public/logo/logo_sbg_blue.webp';
-
 export const About = () => {
     return (
         <Styled.Container>

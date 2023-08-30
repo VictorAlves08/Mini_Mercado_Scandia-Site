@@ -20,7 +20,6 @@ import sadia_logo from '@/public/fornecedores/sadia-logo.webp';
 import seara_logo from '@/public/fornecedores/seara-logo.webp';
 import izy_logo from '@/public/fornecedores/izy_logo.svg';
 
-
 export const Suppliers = () => {
     return (
         <Styled.Container>

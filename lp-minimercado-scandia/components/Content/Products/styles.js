@@ -19,7 +19,7 @@ export const Container = styled.div`
     font-size: 1.1em;
   }
 
-  section{
+  section {
     width: 100%;
 
     display: flex;
@@ -30,5 +30,5 @@ export const Container = styled.div`
     overflow-y: hidden;
 
     gap: 6px;
-}
+  }
 `;
