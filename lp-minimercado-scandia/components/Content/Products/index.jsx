@@ -25,37 +25,37 @@ export const Products = () => {
         <Image
           src={gondola_1}
           alt='Gôndola de Produtos'
-          width={200}
+          width={300}
           height={150}
         />
         <Image
           src={izy_planfeto}
           alt='Planfeto Izy Produtos'
-          width={200}
+          width={300}
           height={150}
         />
         <Image
           src={gondola_2}
           alt='Gôndola de Produtos'
-          width={200}
+          width={300}
           height={150}
         />
         <Image
           src={gondola_3}
           alt='Gôndola de Produtos'
-          width={200}
+          width={300}
           height={150}
         />
         <Image
           src={gondola_4}
           alt='Gôndola de Produtos'
-          width={200}
+          width={300}
           height={150}
         />
         <Image
           src={gondola_5}
           alt='Gôndola de Produtos'
-          width={200}
+          width={300}
           height={150}
         />
       </section>
@@ -64,37 +64,37 @@ export const Products = () => {
         <Image
           src={gondola_6}
           alt='Gôndola de Produtos'
-          width={200}
+          width={300}
           height={150}
         />
         <Image
           src={gondola_7}
           alt='Gôndola de Produtos'
-          width={200}
+          width={300}
           height={150}
         />
         <Image
           src={gondola_8}
           alt='Gôndola de Produtos'
-          width={200}
+          width={300}
           height={150}
         />
         <Image
           src={gondola_9}
           alt='Gôndola de Produtos'
-          width={200}
+          width={300}
           height={150}
         />
         <Image
           src={gondola_10}
           alt='Gôndola de Produtos'
-          width={200}
+          width={300}
           height={150}
         />
         <Image
           src={gondola_11}
           alt='Gôndola de Produtos'
-          width={200}
+          width={300}
           height={150}
         />
       </section>
