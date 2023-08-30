@@ -24,6 +24,7 @@ export const Header = () => {
                         <Link
                             target="_blank"
                             href="https://api.whatsapp.com/send?l=pt_BR&phone=5511980533265%20&text=Olá, Minimercado Scandia! Vim do site e gostaria de mais informações."
+                            aria-label="Entre em contato pelo WhatsApp"
                         >
                             <WhatsAppIcon
                                 className='icon'
@@ -33,7 +34,11 @@ export const Header = () => {
                                 style={{ cursor: 'pointer' }}
                             />
                         </Link>
-                        <Link target="_blank" href="https://www.instagram.com/minimercadoscandia/" >
+                        <Link
+                            target="_blank"
+                            href="https://www.instagram.com/minimercadoscandia/"
+                            aria-label="Entre em contato pelo Instagram"
+                        >
                             <InstagramIcon
                                 className='icon'
                                 width='2em'
@@ -42,7 +47,11 @@ export const Header = () => {
                                 style={{ cursor: 'pointer' }}
                             />
                         </Link>
-                        <Link target="_blank" href="https://goo.gl/maps/JSBq2cs2ZNbc9cTP7" >
+                        <Link
+                            target="_blank"
+                            href="https://goo.gl/maps/JSBq2cs2ZNbc9cTP7"
+                            aria-label="Localização do Minimercado"
+                        >
                             <MapsIcon
                                 className='icon'
                                 width='2em'

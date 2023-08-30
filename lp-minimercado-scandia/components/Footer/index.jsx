@@ -9,6 +9,7 @@ export const Footer = () => {
         <Styled.Container>
             <h1>Como Chegar</h1>
             <iframe
+                title="Frame da localização do minimercado através do google maps"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.1606947603955!2d-46.8036287!3d-23.634415499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce550a30d54cf5%3A0x389e5b58ecad43d5!2sMini%20Mercado%20Scandia!5e0!3m2!1spt-BR!2sbr!4v1693244476488!5m2!1spt-BR!2sbr"
                 style={{ border: 0, width: '95%', height: '75%' }}
                 allowFullScreen=""
