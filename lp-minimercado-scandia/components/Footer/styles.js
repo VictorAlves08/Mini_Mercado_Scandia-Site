@@ -25,5 +25,9 @@ export const Container = styled.footer`
     font-size: 0.85rem;
 
     text-align: center;
+
+    a {
+      color: #fff;
+    }
   }
 `;

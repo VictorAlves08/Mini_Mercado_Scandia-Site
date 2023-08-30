@@ -11,7 +11,8 @@ const montserrat = Montserrat({
 
 export const metadata = {
   title: "Minimercado Scandia",
-  description: "O melhor de Taboão da Serra na região Jd.Scandia! Aqui você encontra os melhores produtos da região!",
+  description:
+    "O melhor de Taboão da Serra na região Jd.Scandia! Aqui você encontra os melhores produtos da região!",
   keywords: [
     "minimercado",
     "mini Mercado",
@@ -23,6 +24,13 @@ export const metadata = {
   icons: [{ rel: "icon", url: Logo_ico.src }],
   author: "Victor Alves de Oliveira",
   authorUrl: "https://www.linkedin.com/in/victor-alves-de-oliveira/",
+  images: [
+    {
+      url: "/public/logo/logo_bg_blue.webp",
+      alt: "Logo Minimercado Scandia",
+      type: "image/jpg",
+    },
+  ],
   openGraph: {
     images: [
       {
@@ -33,8 +41,10 @@ export const metadata = {
     ],
     icons: [{ rel: "icon", url: Logo_ico.src }],
     type: "website",
-    title: "Mini Mercado Scandia | O melhor de Taboão da Serra na região Jd.Scandia!",
-    description: "O melhor de Taboão da Serra na região Jd.Scandia! Aqui você encontra os melhores produtos da região!",
+    title:
+      "Mini Mercado Scandia | O melhor de Taboão da Serra na região Jd.Scandia!",
+    description:
+      "O melhor de Taboão da Serra na região Jd.Scandia! Aqui você encontra os melhores produtos da região!",
     url: "https://minimercado-scandia.vercel.app/",
   },
 };
