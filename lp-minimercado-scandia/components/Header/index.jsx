@@ -21,7 +21,10 @@ export const Header = () => {
                 />
                 <Styled.Section>
                     <div className='icons-container'>
-                        <Link target="_blank" href="https://api.whatsapp.com/send?l=pt_BR&phone=5511980533265%20&text=Olá, Minimercado Scandia! Vim do site e gostaria de mais informações." >
+                        <Link
+                            target="_blank"
+                            href="https://api.whatsapp.com/send?l=pt_BR&phone=5511980533265%20&text=Olá, Minimercado Scandia! Vim do site e gostaria de mais informações."
+                        >
                             <WhatsAppIcon
                                 className='icon'
                                 width='2em'

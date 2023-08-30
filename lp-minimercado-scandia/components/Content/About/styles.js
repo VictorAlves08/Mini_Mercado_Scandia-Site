@@ -17,7 +17,7 @@ export const Container = styled.div`
   gap: 8px;
   padding: 8px;
 
-  h1{
+  h1 {
     text-align: center;
     white-space: nowrap;
 

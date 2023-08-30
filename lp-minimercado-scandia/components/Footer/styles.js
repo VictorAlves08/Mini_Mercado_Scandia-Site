@@ -6,7 +6,7 @@ export const Container = styled.footer`
   width: 100%;
   height: 25rem;
   padding: 8px;
-  
+
   background: rgb(9, 9, 64);
 
   display: flex;
@@ -25,9 +25,5 @@ export const Container = styled.footer`
     font-size: 0.85rem;
 
     text-align: center;
-
-    :visited {
-      color: #0300FF;
-    }
   }
 `;

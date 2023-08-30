@@ -37,10 +37,10 @@ export const Section = styled.section`
     align-items: center;
     justify-content: space-around;
 
-    .icon{
-        &:hover{
-            color: #4183c4;
-        }
+    .icon {
+      &:hover {
+        color: #4183c4;
+      }
     }
   }
 
