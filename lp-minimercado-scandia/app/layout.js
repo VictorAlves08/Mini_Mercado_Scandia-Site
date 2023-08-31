@@ -1,5 +1,6 @@
 import { Montserrat } from "next/font/google";
 import Logo_ico from "@/public/logo/ico_bg_blue.ico";
+import Logo_bg_blue from "@/public/logo/logo_bg_blue.webp";
 
 import StyledComponentsRegistry from "../lib/registry.js";
 import { GlobalStyles } from "./globalStyle";
@@ -26,17 +27,17 @@ export const metadata = {
   authorUrl: "https://www.linkedin.com/in/victor-alves-de-oliveira/",
   images: [
     {
-      url: "/public/logo/logo_bg_blue.webp",
+      url: Logo_bg_blue.src,
       alt: "Logo Minimercado Scandia",
-      type: "image/jpg",
+      type: "image/webp",
     },
   ],
   openGraph: {
     images: [
       {
-        url: "/public/logo/logo_bg_blue.webp",
+        url: Logo_bg_blue.src,
         alt: "Logo Minimercado Scandia",
-        type: "image/jpg",
+        type: "image/webp",
       },
     ],
     icons: [{ rel: "icon", url: Logo_ico.src }],
