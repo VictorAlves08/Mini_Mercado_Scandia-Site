@@ -43,7 +43,7 @@ export const metadata = {
     icons: [{ rel: "icon", url: Logo_ico.src }],
     type: "website",
     title:
-      "Mini Mercado Scandia | O melhor de Taboão da Serra na região Jd.Scandia!",
+      "Minimercado Scandia | O melhor de Taboão da Serra na região Jd.Scandia!",
     description:
       "O melhor de Taboão da Serra na região Jd.Scandia! Aqui você encontra os melhores produtos da região!",
     url: "https://minimercado-scandia.vercel.app/",
