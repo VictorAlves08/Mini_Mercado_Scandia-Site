@@ -5,18 +5,18 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   height: 15rem;
-  background: rgb(9, 9, 64);
 
+  background: rgb(9, 9, 64);
   padding: 8px;
 
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 `;
 
 export const Section = styled.section`
-  width: 100%;
+  width: 50%;
   height: 100%;
 
   color: #fff;
@@ -26,16 +26,13 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
-
-  padding-top: 8px;
+  justify-content: space-evenly;
 
   .icons-container {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    gap: 12px;
 
     .icon {
       &:hover {
