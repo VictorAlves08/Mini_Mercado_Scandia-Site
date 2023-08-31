@@ -16,7 +16,7 @@ export const Header = () => {
                 <Image
                     src={logo_sbg_blue}
                     alt='Logo do Minimercado Scandia'
-                    width={150}
+                    width={200}
                     height={150}
                 />
                 <Styled.Section>

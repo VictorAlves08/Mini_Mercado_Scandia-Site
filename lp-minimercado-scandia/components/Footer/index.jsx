@@ -14,7 +14,7 @@ export const Footer = () => {
                 style={{ border: 0, width: '95%', height: '75%' }}
                 allowFullScreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
             />
             <text>
                 Minimercado Scandia © {currentYear} - Todos os direitos reservados.
